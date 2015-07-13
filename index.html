@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/skeleton.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Webdev CheatSheet</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    <img src="assets/img/composer.png" alt="Bower" />
+                    <h1>
+                        <p class="title">Composer</p>
+                        <p class="subtitle">php packages</p>
+                    </h1>
+                    <p class="description">
+                        Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
+                    </p>
+                    <p class="command"><span class="tool">php composer.phar</span> install</p>
+                    <p class="commandDescription">if the installation is local</p>
+                    <p class="command"><span class="tool">composer</span> install</p>
+                    <p class="commandDescription">if the installation is global</p>
+                    <p class="command"><span class="tool">composer</span> update <span class="name">package_name</span> </p>
+                    <p class="commandDescription">update a specific package</p>
+                    <p class="command"><span class="tool">composer</span> dump auto-load</p>
+                    <p class="commandDescription">update the dependencies file autoload.php</p>
+                    <a class="button button-primary" href="https://getcomposer.org/" target="_blank">Composer Website</a>
+                </div>
+                <div class="six columns">
+                    <img src="assets/img/bower.png" alt="Bower" />
+                    <h1>
+                        <p class="title">Bower</p>
+                        <p class="subtitle">front end packages</p>
+                    </h1>
+                    <p class="description">
+                        Bower works by fetching and installing packages from all over, taking care of hunting, finding, downloading, and saving the stuff you’re looking for. Bower keeps track of these packages in a manifest file, bower.json. How you use packages is up to you. Bower provides hooks to facilitate using packages in your tools and workflows.
+
+Bower is optimized for the front-end. Bower uses a flat dependency tree, requiring only one version for each package, reducing page load to a minimum.
+                    </p>
+                    <p class="command"><span class="tool">bower</span> install</p>
+                    <p class="commandDescription">install dependencies</p>
+                    <p class="command"><span class="tool">bower</span> install <span class="name">package_name</span> --save</p>
+                    <p class="commandDescription">install the packagen and save in bower.json dependencies</p>
+                    <p class="command"><span class="tool">bower</span> search <span class="name">package_name</span></p>
+                    <p class="commandDescription">search for specific package</p>
+                    <p class="command"><span class="tool">bower</span> update</p>
+                    <p class="commandDescription">update all dependencies</p>
+                    <p class="command"><span class="tool">bower</span> update <span class="name">package_name</span></p>
+                    <p class="commandDescription">update a specific package</p>
+                    <p class="command"><span class="tool">bower</span> uninstall <span class="name">package_name</span></p>
+                    <p class="commandDescription">uninstall a specific package</p>
+                    <a class="button button-primary" href="http://bower.io/" target="_blank">Bower Website</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="six columns">
+                    <img src="assets/img/emmet.png" alt="Bower" />
+                    <h1>
+                        <p class="title">Emmet</p>
+                        <p class="subtitle">plugin to make easy write html and css</p>
+                    </h1>
+                    <p class="description">
+                        Emmet takes the snippets idea to a whole new level: you can type CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abbreviation. Emmet is developed and optimised for web-developers whose workflow depends on HTML/XML and CSS, but can be used with programming languages too.
+                    </p>
+                    <p class="command">element.class</p>
+                    <p class="commandDescription">Create a element with a class</p>
+                    <p class="command">element#id</p>
+                    <p class="commandDescription">Create a element with a id</p>
+                    <p class="command">element>element</p>
+                    <p class="commandDescription">install dependencies</p>
+                    <p class="command">element*number</p>
+                    <p class="commandDescription">create a element with child element</p>
+                    <p class="command">element.class|c</p>
+                    <p class="commandDescription">create a element with a class and comment the end of the element</p>
+                    <p class="command">element#id|c</p>
+                    <p class="commandDescription">create a element with a id and comment the end of the element</p>
+                    <p class="command">Ctrl + /</p>
+                    <p class="commandDescription">comment the code</p>
+                    <a class="button button-primary" href="http://emmet.io/" target="_blank">Emmet Website</a>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

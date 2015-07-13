@@ -1,0 +1,114 @@
+/*
+ *=============================
+ *Importação de Fontes
+ *=============================
+*/
+
+@font-face {
+  font-family: 'Asenine';
+  src: url('../font/asenine.eot'); /* IE9 Compat Modes */
+  src: url('../font/asenine.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/asenine.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/asenine.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../font/asenine.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../font/asenine.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Bebas';
+  src: url('../font/bebas.eot'); /* IE9 Compat Modes */
+  src: url('../font/bebas.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/bebas.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/bebas.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../font/bebas.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../font/bebas.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('../font/myriadpro-regular.eot'); /* IE9 Compat Modes */
+  src: url('../font/myriadpro-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/myriadpro-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/myriadpro-regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../font/myriadpro-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../font/myriadpro-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/*
+ *=============================
+ *Modificação de estilos de terceiros
+ *=============================
+*/
+.button-primary {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+/*
+ *=============================
+ *Estilos Globais
+ *=============================
+*/
+
+body {
+    background-color: #333;
+    padding-top: 50px;
+}
+
+p {
+    color: #fff;
+}
+
+img {
+    margin-right: 20px;
+    float: left;
+}
+
+/*
+ *=============================
+ *Estilos Específicos
+ *=============================
+*/
+
+.title, .subtitle, .command, .commandDescription {
+    margin: 0;
+}
+
+.title {
+    font-family: Bebas;
+    font-size: 1.10em;
+}
+
+.subtitle {
+    font-family: Asenine;
+    font-style: italic;
+    font-size: 0.5em;
+    letter-spacing:0px
+}
+
+.description {
+    font-family: MyriadPro;
+    font-size: 0.9em;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.command {
+    font-family: MyriadPro;
+    font-size: 1.7em;
+    line-height: 20px;
+}
+
+.commandDescription {
+    font-family: MyriadPro;
+    font-size: 1em;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.tool {
+    color: #19BB9B;
+}
+.name {
+    color: #F1C40E;
+}
