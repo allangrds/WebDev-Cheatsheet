@@ -45,7 +45,7 @@ Bower is optimized for the front-end. Bower uses a flat dependency tree, requiri
                     <p class="command"><span class="tool">bower</span> install <span class="name">package_name</span> --save</p>
                     <p class="commandDescription">install the packagen and save in bower.json dependencies</p>
                     <p class="command"><span class="tool">bower</span> search <span class="name">package_name</span></p>
-                    <p class="commandDescription">search for specific package</p>
+                    <p class="commandDescription">search for a specific package</p>
                     <p class="command"><span class="tool">bower</span> update</p>
                     <p class="commandDescription">update all dependencies</p>
                     <p class="command"><span class="tool">bower</span> update <span class="name">package_name</span></p>
@@ -68,11 +68,11 @@ Bower is optimized for the front-end. Bower uses a flat dependency tree, requiri
                     <p class="command">element.class</p>
                     <p class="commandDescription">Create a element with a class</p>
                     <p class="command">element#id</p>
-                    <p class="commandDescription">Create a element with a id</p>
+                    <p class="commandDescription">Create a element with an id</p>
                     <p class="command">element>element</p>
                     <p class="commandDescription">install dependencies</p>
                     <p class="command">element*number</p>
-                    <p class="commandDescription">create a element with child element</p>
+                    <p class="commandDescription">create an element with a child element</p>
                     <p class="command">element.class|c</p>
                     <p class="commandDescription">create a element with a class and comment the end of the element</p>
                     <p class="command">element#id|c</p>
@@ -92,16 +92,34 @@ Bower is optimized for the front-end. Bower uses a flat dependency tree, requiri
                     </p>
                     <p class="command"><span class="tool">git</span> init</p>
                     <p class="commandDescription">start folder as repository</p>
-                    <p class="command"><span class="tool">git</span> add .</p>
-                    <p class="commandDescription">add all files of the folder</p>
                     <p class="command"><span class="tool">git</span> add <span class="name">file_name_with_extension</span></p>
                     <p class="commandDescription">add a specific file</p>
+                    <p class="command"><span class="tool">git</span> add .</p>
+                    <p class="commandDescription">add new and modified files</p>
+                    <p class="command"><span class="tool">git</span> add -A</p>
+                    <p class="commandDescription">add all files</p>
+                    <p class="command"><span class="tool">git</span> add -u</p>
+                    <p class="commandDescription">add/delete modified and deleted files</p>
+                    <p class="command"><span class="tool">git</span> status</p>
+                    <p class="commandDescription">show new and modified files up to date</p>
                     <p class="command"><span class="tool">git</span> status</p>
                     <p class="commandDescription">add all files of the folder</p>
-                    <p class="command"><span class="tool">git</span> status</p>
-                    <p class="commandDescription">add all files of the folder</p>
-                    <p class="command"><span class="tool">git</span> status</p>
-                    <p class="commandDescription">add all files of the folder</p>
+                    <p class="command"><span class="tool">git</span> commit -m <span class="name">"commit_message"</span></p>
+                    <p class="commandDescription">commit with a message</p>
+                    <p class="command"><span class="tool">git</span> commit -a -m <span class="name">"commit_message"</span></p>
+                    <p class="commandDescription">add all files and commit</p>
+                    <p class="command"><span class="tool">git</span> reset head~1</p>
+                    <p class="commandDescription">restore previous commit</p>
+                    <p class="command"><span class="tool">git</span> log</p>
+                    <p class="commandDescription">show commit log</p>
+                    <p class="command"><span class="tool">git</span> log -p</p>
+                    <p class="commandDescription">show log commits with changes between files</p>
+                    <p class="command"><span class="tool">git</span> branch</p>
+                    <p class="commandDescription">show current branch</p>
+                    <p class="command"><span class="tool">git</span> checkout -b <span class="name">"branch_name"</span></p>
+                    <p class="commandDescription">create a branch</p>
+                    <p class="command"><span class="tool">git</span> checkout <span class="name">"branch_name"</span></p>
+                    <p class="commandDescription">change to selected branch</p>
 
                     <a class="button button-primary" href="https://git-scm.com/" target="_blank">Git Website</a>
                 </div>
