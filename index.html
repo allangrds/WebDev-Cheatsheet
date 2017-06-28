@@ -93,20 +93,54 @@
             <!-- Row init -->
             <div class="row">
                 <div class="six columns">
-                    <img src="assets/img/django.png" alt="Git" />
+                    <img src="assets/img/docker.png" alt="Docker" style="max-width: 180px;"/>
                     <h1>
-                        <p class="title">Django</p>
-                        <p class="subtitle">python web framework</p>
+                        <p class="title">Docker</p>
+                        <p class="subtitle">container platform</p>
                     </h1>
                     <p class="description">
-                        Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
+                        Docker is the world’s leading software container platform. Developers use Docker to eliminate “works on my machine” problems when collaborating on code with co-workers.
                     </p>
-                    <p class="command">django-admin startproject <span class="name">project-name</span></p>
-                    <p class="commandDescription">create a project's directory structure</p>
-                    <p class="command"><span class="tool">python manage.py</span> runserver $IP:$PORT</p>
-                    <p class="commandDescription">starts the development server on the $IP at port $PORT</p>
+                    <p class="command"><span class="tool">docker</span> ps</p>
+                    <p class="commandDescription">shows running containers</p>
+
+                    <p class="command"><span class="tool">docker</span> ps -a</p>
+                    <p class="commandDescription">shows running and stopped containers</p>
+
+                    <p class="command"><span class="tool">docker</span> images</p>
+                    <p class="commandDescription"> shows all images</p>
+
+                    <p class="command"><span class="tool">docker</span> rmi <span class="name">image_name</span></p>
+                    <p class="commandDescription">removes an image</p>
+
+                    <p class="command"><span class="tool">docker</span> rm <span class="name">container_name</span></p>
+                    <p class="commandDescription">removes a container</p>
+
+                    <p class="command"><span class="tool">docker</span> rm -v <span class="name">container_name</span></p>
+                    <p class="commandDescription">removes a container and his volumes</p>
+
+                    <a class="button button-primary" href="https://www.docker.com/" target="_blank">Docker Website</a>
                 </div>
                 <div class="six columns">
+                    <img src="assets/img/docker_compose.png" alt="Docker" style="max-width: 135px;"/>
+                    <h1>
+                        <p class="title">Docker Compose</p>
+                        <p class="subtitle">multi-container management</p>
+                    </h1>
+                    <p class="description">
+                      Compose is a tool for defining and running multi-container Docker applications.
+                      To learn more about Compose refer to the following documentation:
+                    </p>
+                    <p class="command"><span class="tool">docker-compose</span> build</p>
+                    <p class="commandDescription">builds images from dockerfile</p>
+
+                    <p class="command"><span class="tool">docker-compose</span> build --nocache</p>
+                    <p class="commandDescription">builds images from dockerfile without using cache</p>
+
+                    <p class="command"><span class="tool">docker-compose</span> up</p>
+                    <p class="commandDescription">builds, (re)creates, starts, and attaches to containers for a service</p>
+
+                    <a class="button button-primary" href="https://docs.docker.com/compose/" target="_blank">Docker Compose Website</a>
                 </div>
             </div>
             <!-- Row end -->
